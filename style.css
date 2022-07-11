@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 110%;
   background-color: #fcf7f8;
   display: flex;
@@ -11,15 +11,20 @@ body {
   background-color: #4281a4;
   color: #fcf7f8;
   text-align: center;
-  padding: 10px;
+  padding: 20px 0 10px 0;
 }
 .profilePic {
+  margin-left: 1.5em;
   width: 200px;
   border-radius: 7rem;
   border: 7px solid red;
 }
 
 /* Content styles */
+.dates {
+  margin-bottom: 0%;
+  font-size: 0.8em;
+}
 .main {
   display: flex;
   flex-direction: row;
@@ -27,20 +32,48 @@ body {
 .sidebar {
   background-color: #9cafb7;
   color: #fcf7f8;
-  padding: 0px 100px 0px 10px;
+  padding: 0px 15% 0px 10px;
 }
 
 .sidebar li {
+  font-size: large;
   list-style: none;
   margin-left: -40px;
+  padding: 6px 0 0 0;
 }
 .content {
-  padding: 10px;
+  padding: 15px;
+}
+.content p {
+  width: 60%;
+  text-align: justify;
+}
+hr {
+  border-top: 2px solid red;
+  width: 75%;
+  margin-bottom: 1.2em;
+}
+h2 {
+  margin-bottom: 0%;
+  color: #4281a4;
+}
+.content h3 {
+  margin-top: 0%;
+  color: #4281a4;
 }
 
 /*Footer styles*/
 .footer {
   background-color: #4281a4;
   text-align: center;
+  color: #fcf7f8;
+}
+.footer p {
+  font-size: 0.75em;
+  text-align: left;
+  padding: 0 0 0 10px;
+}
+.footer h2,
+.sidebar h2 {
   color: #fcf7f8;
 }
